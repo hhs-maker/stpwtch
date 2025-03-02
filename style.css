@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.stopwatch{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 18px 22px ;
+    border-radius: 19px ;
+}
+.timerDisplay{
+    font-size: 46px ;
+    font-weight: 600;
+}
+.buttons{
+    margin-top: 20px ;
+}
+
+.btn{
+    font-size: 18px ;
+    background-color: none;
+    border: none;
+    color: white;
+    background-color: var(--clr);
+    padding: 11px 19px ;
+    margin-inline: 12px ;
+    border-radius: 6px ;
+    cursor: pointer;
+}
+.heading{
+    color: var(--clr);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.made{
+    background-color: none;
+    color: black;
+}
